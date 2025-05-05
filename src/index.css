@@ -1,1 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
+
 @import "tailwindcss";
+@import "tw-animate-css";
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Theme Colors */
+:root {
+  --color-primary-black-900: rgb(25, 25, 35);
+  --color-primary-black-800: rgb(61, 61, 61);
+  --color-primary-black-500: rgb(107, 107, 107);
+  --color-primary-black-200: rgb(221, 221, 228);
+
+  --color-primary-orange-900: rgb(224, 40, 37);
+  --color-primary-orange-600: rgb(225, 108, 31);
+  --color-primary-orange-300: rgb(225, 241, 238);
+
+  --color-secondary-yellow-900: rgb(225, 206, 67);
+
+  --color-secondary-white-900: rgb(245, 247, 250);
+  --color-secondary-white-700: rgb(255, 255, 255);
+
+  --color-secondary-green-900: rgb(108, 160, 59);
+  --color-secondary-green-400: rgb(238, 242, 217);
+  --color-secondary-green-200: rgb(237, 244, 236);
+
+  --color-secondary-blue-900: rgb(60, 74, 179);
+  --color-secondary-blue-400: rgb(212, 222, 255);
+  --color-secondary-blue-300: rgb(231, 236, 255);
+}
