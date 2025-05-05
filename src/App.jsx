@@ -6,7 +6,7 @@ import LoginPage from "./pages/LoginPage.jsx";
 import SignupPage from "./pages/SignupPage.jsx";
 import CreateNote from "./pages/CreateNote.jsx";
 import DashboardPage from "./pages/DashboardPage.jsx";
-import PublicProfilePage from "./pages/PublicProfilePage.jsx";
+
 
 
 function App() {
@@ -20,7 +20,6 @@ function App() {
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/create" element={<CreateNote />} />
           <Route path="/dashboard" element={<DashboardPage />} />
-          <Route path="/profileuser" element={<PublicProfilePage />} />
            
         </Routes>
       </AuthProvider>
